@@ -45,7 +45,7 @@
 1. Склонируйте данный репозиторий на свой компьютер. Откройте терминал и выполните следующую команду: 
 
     ```
-        git clone https://github.com/wleha1/QA-trainee-assignment-winter-2025.git
+    git clone https://github.com/wleha1/QA-trainee-assignment-winter-2025.git
     ```
     Или скачайте zip архив по [ссылке](https://github.com/wleha1/QA-trainee-assignment-winter-2025/archive/refs/heads/main.zip) и распакуйте его.
 
