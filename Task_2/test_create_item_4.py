@@ -28,10 +28,8 @@ def test_create_item(seller_id, name, price, expected_status):
 
     response = requests.post(f"{BASE_URL}/item", json=payload)
 
-    # Проверка ожидаемого статуса
     assert response.status_code == expected_status, f"Ожидался статус {expected_status}, но получен {response.status_code}"
 
-    # Если статус 200, проверяем полученные данные
     if response.status_code == 200:
         data = response.json()
 
